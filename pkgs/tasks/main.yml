@@ -1,13 +1,12 @@
- - name: Install essential packages
-   check_mode: no
-   ansible.builtin.apt:
-     name:
-       - nginx
-       - ca-certificates
-       - curl
-       - gnupg
-       - htop
-       - build-essential
-       - libssl-dev
-     state: present
-   become: yes
+- name: Install essential packages
+  ansible.builtin.apt:
+    name:
+      - nginx
+      - ca-certificates
+      - curl
+      - gnupg
+      - htop
+      - build-sessential
+      - libssl-dev
+    state: present
+  become: yes
