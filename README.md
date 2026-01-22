@@ -76,6 +76,9 @@ Additional configurations:
 - Ensures Docker service is started and enabled at boot
 
 ## Getting Started
+### Installation if not available
+pip install --user ansible
+brew install ansible
 
 ### 1. Configure Inventory
 
@@ -197,8 +200,8 @@ When adding new roles:
 
 ## Author
 
-Solo Shun
-
+Solomon Eshun
+Joshua N. Opare-Boateng
 ## License
 
 MIT License
